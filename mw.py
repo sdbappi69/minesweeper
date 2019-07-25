@@ -153,7 +153,7 @@ def startGame(row_count, column_count, mine_count):
         mines_left = mine_count - len(flags)
         row_prompt = input('Enter the Row(Left) number: ')
         column_prompt = input('Enter the Column(Top) number: ')
-        flag_prompt = input('Enter the flag (y/n): ')
+        flag_prompt = input('Add/Remove the Flag (y/*): ')
         result = parseInput(column_prompt, row_prompt, flag_prompt, row_count, column_count, help_msg + '\n')
 
         # print(result)
